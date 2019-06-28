@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/contacts.css">
+	<script src="js/jquery-3.4.1.js" type="text/javascript"></script><script src="js/contacts.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="container">
+	<div id="header">
+		<h1>Contacts</h1>
+	</div>
+	<div id="inputs">
+		<h2>New Contacts</h2>
+		<form id="log">
+			<label>First name:</label><br>
+			<input id="first_name" type="text" placeholder="First name"><br>
+			<label>Last name:</label><br>
+			<input id="last_name" type="text" placeholder="Last name"><br>
+			<label>Phone Number:</label><br>
+			<input id="phone_number" type="text" placeholder="Phone Number"><br>
+			<label>email:</label><br>
+			<input id="email" type="email" placeholder="E-mail"><br>
+			<strong>Address:</strong><br>
+			<label>Street:</label>
+			<input id="street" type="text" placeholder="Street">
+			<label>City:</label>
+			<input id="city" type="text" placeholder="City">
+			<label>Country:</label>
+			<input id="country" type="text" placeholder="Country"><br>
+			<input type="button" name="Save" id="store" value="Save Details">
+		</form>
+	</div>
+	<div id="search">
+		<h2>Search Contacts</h2>
+		<input type="text" name="Contact Details">
+		<input type="button" value="Search Contacts" name="Search">
+		<p>
+			<strong>Results</strong>
+		</p>
+	</div>
+	<div id="lists">
+		<h2>Saved Contacts</h2>
+		<table id="log" align="center">
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+				<th>email</th>
+				<th>Street</th>
+				<th>City</th>
+				<th>Country</th>
+			</tr>
+			<tr>
+				<td class="First_name"></td>
+				<td class="Last_name"></td>
+				<td class="Phone_number"></td>
+				<td clas="Email"></td>
+				<td class="Street"></td>
+				<td class="City"></td>
+				<td class="Country"></td>
+			</tr>
+		</table>		
+		<ol>
+			<li></li>
+		</ol>
+	</div>
+</div>	
+</body>
+</html>
